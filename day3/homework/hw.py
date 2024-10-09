@@ -1,4 +1,12 @@
 score=90
+
+
+
+
+
+
+
+
 health=100
 attackingh_points=85
 defence_points=70

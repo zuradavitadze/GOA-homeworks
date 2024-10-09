@@ -11,8 +11,8 @@ width = 5
 float(input("5: "))
 area = length * width
 perimetr = 2 * (length + width)
-print(area)
-print (perimetr)   
+print("50:", area)
+print ("30:", perimetr)   
 
 
 
