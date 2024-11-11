@@ -1,31 +1,18 @@
-def reverse_word(text, word_to_reverse):
-  """
-  This function reverses a specified word in a given text.
+fruits = ["ბანანი", "ვაშლი", "ანანასი", "მანდარინი"]
+print("პირველი ხილი:", fruits[0])
+print("ბოლო ხილი:", fruits[-1])
 
-  Args:
-    text: The input text.
-    word_to_reverse: The word to be reversed.
+numbers = list(range(1, 11))
+print("პირველი რიცხვი:", numbers[0])
+print("მეხუთე რიცხვი:", numbers[4])
+print("მეათე რიცხვი:", numbers[9])
 
-  Returns:
-    The modified text with the reversed word.
-  """
+animals = ["კატა", "ძაღლი", "თევზი", "ჩიტი"]
+animals[0] = "ლომი"
+print("განახლებული სია:", animals)
 
-  words = text.split()
-  reversed_word = word_to_reverse[::-1]
-  result = []
-  for word in words:
-    if word == word_to_reverse:
-      result.append(reversed_word)
-    else:
-      result.append(word)
-  return ' '.join(result)
+movies = ["შინდლერის სია", "ქარი შემქრები", "ინტერსტელარი", "მატრიცა"]
+print("ბოლო ფილმი:", movies[-1])
 
-# ტექსტი, რომელშიც სიტყვა უნდა შეიცვალოს
-text = "დღეს მიერ წსწავლი მასალთ შევატრიალკთ სიტყვა "name" შეატრიალეთ უკუთღმა"
-
-# სიტყვა, რომელიც უნდა შეიცვალოს
-word_to_reverse = "name"
-
-# ფუნქციის გამოძახება და შედეგის დაბეჭდვა
-result = reverse_word(text, word_to_reverse)
-print(result)
+numbers = [10, 20, 30, 40, 50, 60]
+print("უკანასკნელი ორი რიცხვი:", numbers[-2:], numbers[-1])

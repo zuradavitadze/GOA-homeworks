@@ -1,4 +1,8 @@
 name = "zura"
+print(name)
 
-player_speed = 10
+first_name = "გიორგი"
+last_name = "საყვარელიძე"
 
+print("სახელი:", first_name)
+print("გვარი:", last_name)
