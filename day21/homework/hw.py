@@ -59,14 +59,3 @@
 </body>
 </html>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>J.R.R. Tolkien</title>
-</head>
-<body>
-    <h1>J.R.R. Tolkien: The Father of Middle-earth</h1>
-    <p>J.R.R. Tolkien is the author of The Lord of the Rings and The Hobbit.</p>
-    <img src="tolkien.jpg" alt="J.R.R. Tolkien">
-</body>
-</html>

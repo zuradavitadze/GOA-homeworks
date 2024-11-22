@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>გილოცავთ ახალ წელს!</title>
-  <link rel="stylesheet" href="style.css">
+    <title>ჩემი შობა-ახალი წლის ვებსაიტი</title>
 </head>
 <body>
-  <header>
     <h1>გილოცავთ ახალ წელს!</h1>
-  </header>
-  <main>
-    <img src="snowman.jpg" alt="თოვლის კაცი">
     <p>გისურვებთ ბედნიერ და წარმატებულ ახალ წელს!</p>
-  </main>
-  <footer>
-    <p>&copy; 2023</p>
-  </footer>
+    <img src="santa.jpg" alt="სანტა კლაუსი">
 </body>
 </html>
