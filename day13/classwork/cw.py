@@ -1,9 +1,12 @@
-number = 2
-while number <= 10000:
-    print(number)
-    number += 2
+number = int(input("შეიყვანეთ რიცხვი: "))
 
-    number = 1
-while number <= 10000:
-    print(number)
-    number += 2
+if number % 2 == 0:
+    print(number, "არის ლუწი რიცხვი")
+else:
+    print(number, "არის კენტი რიცხვი")
+
+for i in range(1, 101):
+    if i % 2 == 0:
+        print(i, "არის ლუწი რიცხვი")
+    else:
+        print(i, "არის კენტი რიცხვი")

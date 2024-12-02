@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>მაშა და მედვედი</title>
+    <title>Linux-ის სამყარო</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>მაშა და მედვედი</h1>
-    <p>ეს არის ვებსაიტი მაშა და მედვედის შესახებ.</p>
-    <img src="masha.jpg" alt="მაშა">
+    <h1>მოგესალმებით Linux-ის სამყაროში!</h1>
+    <p>Linux არის უფასო და ღია კოდის ოპერაციული სისტემა, რომელიც გამოიყენება კომპიუტერებზე, სერვერებზე და მობილურ მოწყობილობებზე.</p>
+    <h2>პოპულარული Linux დისტრიბუტივები</h2>
+    <ul>
+        <li>Ubuntu</li>
+        <li>Fedora</li>
+        <li>Debian</li>
+    </ul>
+    <p>დამატებითი ინფორმაციისთვის იხილეთ <a href="https://www.linux.org/">Linux.org</a></p>
 </body>
 </html>
