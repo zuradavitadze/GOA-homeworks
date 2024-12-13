@@ -6,4 +6,4 @@ def search(text, word):
 
 text = input()
 word = input()
-print(search(text, word))
+print(search(text, word))  
