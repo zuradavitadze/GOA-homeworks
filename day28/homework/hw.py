@@ -1,10 +1,10 @@
 def search(text, word):
-    count = 0
-    start = 0
-    while True:
-        pos = text.find(word, start)
-        if pos == -1:
-            break
-        count += 1
-        start = pos + len(word)
-    return count
+  """Checks if word is a substring of text."""
+  if word in text:
+    return True  # Or the starting index if needed: return text.find(word)
+  else:
+    return False
+
+text = input()
+word = input()
+print(search(text, word))

@@ -1,9 +1,13 @@
-def square(number):
-  return number **5
-print(square25)
+def square_number(number):
+  """This function squares a number and returns the result."""
+  return number * number
 
-def even_or_odd(n):
-  if n % 2 == 0:
-    return "Even"
-  else:
-    return "Odd"
+# მაგალითი გამოყენებისთვის:
+result = square_number(5)
+print(result)  # გამოიტანს 25-ს
+
+result = square_number(-3)
+print(result) # გამოიტანს 9-ს
+
+result = square_number(0)
+print(result) # გამოიტანს 0-ს
