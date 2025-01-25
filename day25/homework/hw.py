@@ -13,6 +13,6 @@
         <li>Fedora</li>
         <li>Debian</li>
     </ul>
-    <p>დამატებითი ინფორმაციისთვის იხილეთ <a href="https://www.linux.org/">Linux.org</a></p>
+    <p>დამატებითი ინფორმაციისთვის იხილეთ <a href=>Linux.org</a></p>
 </body>
 </html>
