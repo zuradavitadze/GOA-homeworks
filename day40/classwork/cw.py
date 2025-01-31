@@ -1,36 +1,24 @@
-import codewars_test as test
-from solution import is_isogram
+import   test
+from import friend  # Assuming friend function is in solution.py
 
 @test.describe("Fixed Tests")
 def fixed_tests():
-  @test.it('Basic Test Cases')
-  def basic_test_cases():
-    test.assert_equals(is_isogram("Dermatoglyphics"), True)
-    test.assert_equals(is_isogram("isogram"), True)
-    test.assert_equals(is_isogram("Elevate"), False)
-    test.assert_equals(is_isogram("Consecutive"), False)
+    @test.it('Sample Test Cases')
+    def sample_test_cases():
+        test.assert_equals(friend(["Ryan", "Kieran", "Mark"]), ["Ryan", "Kieran", "Mark"])
+        test.assert_equals(friend(["Ryan", "Kieran", "Mark", "123"]), ["Ryan", "Kieran", "Mark"]) # Example with a non-name
 
+# Example implementation of the friend function (in solution.py)
+def friend(friends):
+    return [name for name in friends if name.isalpha()]
 
+# You can add more test cases here as needed
 
-    import codewars_test as test
-from solution import validate_pin
-
-@test.describe("Fixed Tests")
-def fixed_tests():
-  @test.it("should return False for pins with length other than 4 or 6")
-  def test_invalid_length():
-    test.assert_equals(validate_pin("123"), False)
-    test.assert_equals(validate_pin("12345"), False)
-    test.assert_equals(validate_pin("1234567"), False)
-    test.assert_equals(validate_pin(""), False)
-  
-  @test.it("should return False for pins with non-numeric characters")
-  def test_non_numeric_characters():
-    test.assert_equals(validate_pin("123a"), False)
-    test.assert_equals(validate_pin("1234!"), False)
-  
-  @test.it("should return True for valid pins")
-  def test_valid_pins():
-    test.assert_equals(validate_pin("1234"), True)
-    test.assert_equals(validate_pin("0000"), True)
-    test.assert_equals(validate_pin("123456"), True)
+def validate_pin(pin):
+    try:
+        if (len(pin) == 4 or len(pin) == 6) and pin.isdigit():
+            return True
+        else:
+            return False
+    except TypeError:  # In case pin is not a string
+        return False
